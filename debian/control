@@ -1,0 +1,20 @@
+Source: rocm-hipcc
+Section: devel
+Priority: optional
+Maintainer: CHEN Xuan <chenxuan@iscas.ac.cn>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ cmake,
+ rocm-devicelibs,
+Standards-Version: 4.7.0
+Homepage: <insert the upstream URL, if relevant>
+Vcs-Browser: https://github.com/r-rocm/rocm-hipcc
+Vcs-Git: https://github.com/r-rocm/rocm-hipcc.git
+
+Package: rocm-hipcc
+Architecture: any
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: rocm-hipcc
