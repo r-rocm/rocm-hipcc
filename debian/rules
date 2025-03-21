@@ -9,7 +9,6 @@ TOP_DIR := $(shell pwd)/amd/hipcc
 BUILD_PATH := ${TOP_DIR}/rocm-build
 DEB_INST_DIR := $(shell pwd)/debian/rocm-hipcc
 
-
 %:
 	dh $@
 

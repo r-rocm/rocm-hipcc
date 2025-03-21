@@ -6,8 +6,10 @@ Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
  cmake,
- rocm-env,
+ rocm-core-rocm,
  rocm-devicelibs,
+ rocm-env,
+ rocm-llvm,
 Standards-Version: 4.7.0
 Vcs-Browser: https://github.com/r-rocm/rocm-hipcc
 Vcs-Git: https://github.com/r-rocm/rocm-hipcc.git

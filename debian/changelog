@@ -1,3 +1,9 @@
+rocm-hipcc (6.2.4-2) unstable; urgency=medium
+
+  * deps: add rocm core
+
+ -- CHEN Xuan <chenxuan@iscas.ac.cn>  Fri, 21 Mar 2025 12:46:28 +0800
+
 rocm-hipcc (6.2.4-1revyos1) unstable; urgency=medium
 
   * Initial release.
